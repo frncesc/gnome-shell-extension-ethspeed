@@ -1,0 +1,8 @@
+{
+  "name": "Ethernet speed indicator",
+  "description": "Display the current speed of the main ethernet adapter",
+  "uuid": "ethspeed@frncesc.github.io",
+  "shell-version": [
+    "46"
+  ]
+}

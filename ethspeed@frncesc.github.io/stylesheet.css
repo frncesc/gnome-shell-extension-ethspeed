@@ -1,0 +1,15 @@
+.lanspeed-low-detected {
+  background-color: orange;
+  color: darkred;
+}
+
+.lanspeed-ok-detected {
+  background-color: green;
+  color: white;
+}
+
+.lanspeed-error {
+  background-color: red;
+  color: white;
+}
+
