@@ -1,14 +1,18 @@
-.lanspeed-low-detected {
-  background-color: orange;
-  color: darkred;
+.ethspeed-label {
+  font-family: System;
 }
 
-.lanspeed-ok-detected {
+.ethspeed-ok {
   background-color: green;
   color: white;
 }
 
-.lanspeed-error {
+.ethspeed-low {
+  background-color: orange;
+  color: darkred;
+}
+
+.ethspeed-error {
   background-color: red;
   color: white;
 }

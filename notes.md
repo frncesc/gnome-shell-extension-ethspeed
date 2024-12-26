@@ -1,3 +1,11 @@
+## Gnome Shell extensions API docs
+
+### GJS
+- [GJS docs site](https://gjs-docs.gnome.org/)
+- [GJS docs (GitLab)](https://gitlab.gnome.org/GNOME/gjs/-/tree/master/doc)
+- [GJS overrides](https://gitlab.gnome.org/GNOME/gjs/-/blob/master/doc/Overrides.md)
+- [GObject Introspection](https://gitlab.gnome.org/GNOME/gjs/-/tree/master/doc)
+
 ## Test Gnome extensions in Wayland sessions
 Wayland sessions support running GNOME Shell in window, so an extension can be tested without disrupting the current session.
 
@@ -18,7 +26,7 @@ $ gnome-extensions disable ethspeed@frncesc.github.io
 
 ## Check LAN speed
 
-For adapter named 'enx00e04c680031':
+For the lan device 'enx00e04c680031':
 
 ```sh
 cat /sys/class/net/enx00e04c680031/speed
@@ -52,3 +60,20 @@ $ for d in `ls /sys/class/net/`; do echo "$d - `cat /sys/class/net/$d/address`";
 Check name_assign_type === 4
 
 
+## Gettext
+
+Update POT file:
+```sh
+$ cd ethspeed@frncesc.github.io
+$ xgettext --from-code=UTF-8 --output=po/ethspeed@frncesc.github.io.pot *.js
+```
+
+
+## Pack extension
+Pack with translations:
+```sh
+$ gnome-extensions pack --podir=po ethspeed@frncesc.github.io
+```
+
+## Binding error
+(gnome-shell:10702): GLib-GIO-CRITICAL **: 17:56:15.669: g_settings_bind: no property 'device' on class 'Gjs_ethspeed_frncesc_github_io_extension_SpeedIndicator'

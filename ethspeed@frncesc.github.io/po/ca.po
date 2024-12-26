@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-24 10:32+0100\n"
+"PO-Revision-Date: 2024-12-24 10:36+0100\n"
+"Last-Translator: Francesc Busquets <francesc@gmail.com>\n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: extension.js:48
+msgid "LAN speed Indicator"
+msgstr "Indicador de velocitat de xarxa"
+
+#: extension.js:98
+msgid "Preferences"
+msgstr "Preferències"
+
+#: prefs.js:31
+msgid "General"
+msgstr "General"
+
+#: prefs.js:37
+msgid "Device"
+msgstr "dispositiu"
+
+#: prefs.js:38
+msgid "Set the ethernet device to be monitored by the extension"
+msgstr "Establiu quin dispositiu ha de monitorar l'extensió"
+
+#: prefs.js:44
+msgid "Device ID"
+msgstr "ID del dispositiu"
