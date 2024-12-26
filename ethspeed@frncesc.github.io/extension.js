@@ -26,8 +26,8 @@ import { Extension, gettext as _ } from 'resource:///org/gnome/shell/extensions/
 import * as PanelMenu from 'resource:///org/gnome/shell/ui/panelMenu.js';
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 
-// const DEFAULT_DEVICE_ID = 'eth0';
-const DEFAULT_DEVICE_ID = 'enx00e04c680031';
+const DEFAULT_DEVICE_ID = 'eth0';
+// const DEFAULT_DEVICE_ID = 'enx00e04c680031';
 
 const DEFAULT_REFRESH_TIME = 3;
 
