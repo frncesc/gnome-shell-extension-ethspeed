@@ -37,7 +37,7 @@ const SpeedIndicator = GObject.registerClass(
         device = DEFAULT_DEVICE_ID;
 
         _init() {
-            super._init(0.0, _('LAN speed Indicator'));
+            super._init(0.0, _('Ethernet speed indicator'));
 
             this.device = DEFAULT_DEVICE_ID;
 

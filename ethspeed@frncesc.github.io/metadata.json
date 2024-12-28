@@ -1,6 +1,6 @@
 {
   "name": "Ethernet speed indicator",
-  "description": "Display the current speed of the main ethernet adapter",
+  "description": "Display the current speed of an specific ethernet adapter",
   "uuid": "ethspeed@frncesc.github.io",
   "settings-schema": "org.gnome.shell.extensions.ethspeed",
   "gettext-domain": "ethspeed@frncesc.github.io",
