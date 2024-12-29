@@ -25,6 +25,12 @@ const DEFAULT_DEVICE_ID = 'eth0';
 // const DEFAULT_DEVICE_ID = 'enx00e04c680031';
 
 export default class EthSpeedPreferences extends ExtensionPreferences {
+
+  constructor(metadata) {
+    super(metadata);
+    this.initTranslations('ethspeed@frncesc.github.io');
+  }
+
   fillPreferencesWindow(window) {
     // Create a preferences page, with a single group
     const page = new Adw.PreferencesPage({

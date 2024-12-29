@@ -83,6 +83,11 @@ export default class EthSpeedExtension extends Extension {
     running = false;
     settings = null;
 
+    constructor(metadata) {
+        super(metadata);
+        this.initTranslations('ethspeed@frncesc.github.io');
+    }
+
     enable() {
         // Create a new instance of SpeedIndicator class and add it to the status area
         this.indicator = new SpeedIndicator();
