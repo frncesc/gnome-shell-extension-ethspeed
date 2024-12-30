@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ethspeed Gnome Shell Extension v1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-28 11:22+0100\n"
-"PO-Revision-Date: 2024-12-28 11:28+0100\n"
+"POT-Creation-Date: 2024-12-30 19:28+0100\n"
+"PO-Revision-Date: 2024-12-30 19:30+0100\n"
 "Last-Translator: Francesc Busquets <francesc@gmail.com>\n"
 "Language-Team: Francesc Busquets <francesc@gmail.com>\n"
 "Language: ca\n"
@@ -22,22 +22,22 @@ msgstr ""
 msgid "Ethernet speed indicator"
 msgstr "Indicador de la velocitat d'ethernet"
 
-#: extension.js:92
+#: extension.js:97
 msgid "Preferences"
 msgstr "Preferències"
 
-#: prefs.js:31
+#: prefs.js:37
 msgid "General"
 msgstr "General"
 
-#: prefs.js:37
+#: prefs.js:43
 msgid "Device"
 msgstr "Dispositiu"
 
-#: prefs.js:38
-msgid "Set the ethernet device to be monitored by the extension"
-msgstr "Establiu quin dispositiu ha de monitorar l'extensió"
-
 #: prefs.js:44
+msgid "Set the ethernet device to be monitored by the extension"
+msgstr "Establiu quin dispositiu ha de ser monitorat per l'extensió"
+
+#: prefs.js:50
 msgid "Device ID"
-msgstr "ID del dispositiu"
+msgstr "Id. del dispositiu"
